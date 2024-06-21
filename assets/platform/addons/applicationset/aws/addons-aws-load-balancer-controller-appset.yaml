@@ -24,6 +24,10 @@ spec:
                   - key: enable_aws_load_balancer_controller
                     operator: In
                     values: ['true']
+                  - key: enable_aws_load_balancer_controller
+                    operator: In
+                    values:
+                      - 'true'
           - clusters:
               selector:
                 matchLabels:
